@@ -13,6 +13,4 @@ public class HomeController {
         return "Muruga!!.. you did";
     }
 
-
-
 }
