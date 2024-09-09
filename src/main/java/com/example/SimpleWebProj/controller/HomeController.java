@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HomeController {
 
-    @RequestMapping("/greet")
+    @RequestMapping("/home")
 //    @ResponseBody // It say it does not return layout it returns String (value)
     public String greet(){
         return "Muruga!!.. you did";
